@@ -1,4 +1,105 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <!-- Ваше решение -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic-mockup</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            color: #fff;
+            font-size: 16px;
+        }
+        .wrapper {
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 200px 1fr 100px;
+        }
+        header {
+            background-color: #ff0000;
+            display: grid;
+            grid-template-rows: 50% 50%;
+        }
+        h1 {
+            text-align: center;
+            align-self: center;
+            font-size: 72px;
+        }
+        nav {
+            background-color: #ff9900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 30px;
+        }
+        nav a {
+            font-size: 34px;    
+            color: #fff;
+        }
+        main {
+            background-color: #04a142;
+            padding: 20px;
+            display: grid; 
+            grid-template-rows: 1fr 1fr;
+            gap: 10px 0;
+        }
+        article {
+            background-color: #1319ff;
+            padding: 50px 20px;
+        }
+        article h2 {
+            font-size: 34px;
+            margin-bottom: 30px;
+        }
+        article ul, article ol {
+            padding-left: 25px;
+        }
+        article ul li, article ol li {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        footer {
+            background-color: #bd00ff;
+            font-size: 72px;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Header</h1>
+            <nav>
+                <a href="">Navigation 1</a>
+                <a href="">Navigation 2</a>
+                <a href="">Navigation 3</a>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h2>Article 1</h2>
+                <ul>
+                    <li>Оригинальная трилогия</li>
+                    <li>Трилогия приквелов</li>
+                    <li>Трилогия сиквелов</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Article 2</h2>
+                <ol>
+                    <li>Эпизод IV — Новая надежда</li>
+                    <li>Эпизод V — Империя наносит ответный удар</li>
+                    <li>Эпизод VI — Возвращение джедая</li>
+                </ol>
+            </article>
+        </main>
+        <footer>Footer</footer>
+    </div>
+</body>
 </html>
