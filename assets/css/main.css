@@ -15,7 +15,7 @@
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
+    --primary: #4263EB;
     --secondary: var(--purple);
 }
 
