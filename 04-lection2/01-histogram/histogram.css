@@ -9,14 +9,18 @@
     display: flex;
     justify-content: space-between;
 }
-.histogram__title:first-child {
+.title__text {
+    font-size: 16px;
+    font-weight: 400;
     opacity: .8;
 }
-.see-all {
+.histogram__link {
+    font-size: 16px;
+    font-weight: 400;
     margin-top: 3px;
     text-decoration: none;
 }
-.see-all:hover {
+.histogram__link:hover {
     text-decoration: underline;
     color: var(--primary);
 }
@@ -30,41 +34,39 @@
     gap: 0 1px;
     margin-top: 39px;
     padding: 0 5px;
+    height: 50px;
 }
-.histogram-block {
+.histogram__column {
     flex-grow: 1;
     background-color: var(--primary);
 }
-.hb-height_100 {
-    height: 50px;
+.histogram__column_100 {
+    height: 100%;
 }
-.hb-height_100 {
-    height: 50px;
+.histogram__column_90 {
+    height: 90%;
 }
-.hb-height_90 {
-    height: 45px;
+.histogram__column_80 {
+    height: 80%;
 }
-.hb-height_80 {
-    height: 40px;
+.histogram__column_70 {
+    height: 70%;
 }
-.hb-height_70 {
-    height: 35px;
+.histogram__column_60 {
+    height: 60%;
 }
-.hb-height_60 {
-    height: 30px;
+.histogram__column_50 {
+    height: 50%;
 }
-.hb-height_50 {
-    height: 25px;
+.histogram__column_40 {
+    height: 40%;
 }
-.hb-height_40 {
-    height: 20px;
+.histogram__column_30 {
+    height: 30%;
 }
-.hb-height_30 {
-    height: 15px;
+.histogram__column_20 {
+    height: 20%;
 }
-.hb-height_20 {
-    height: 10px;
-}
-.hb-height_10 {
-    height: 5px;
+.histogram__column_10 {
+    height: 10%;
 }
