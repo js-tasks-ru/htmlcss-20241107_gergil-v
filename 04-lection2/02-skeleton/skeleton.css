@@ -8,6 +8,7 @@
 .skeleton__top {
     display: flex;
     gap: 0 16px;
+    margin-bottom: 24px;
 }
 .skeleton__text-block {
     flex-grow: 1;
@@ -32,12 +33,9 @@
     height: 20px;
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
-.mb_24 {
-    margin-bottom: 24px;
-}
-.st_width-50 {
+.skeleton__text_width-50 {
     width: 50%;
 }
-.st_width-30 {
+.skeleton__text_width-30 {
     width: 30%;
 }
