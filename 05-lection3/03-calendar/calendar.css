@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 .calendar {
     max-width: 304px;
     padding: 28px 26px 32px;
