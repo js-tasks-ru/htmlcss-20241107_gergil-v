@@ -1,8 +1,6 @@
 .tooltip {
     position: relative;
-    margin: 300px auto;
-    width: 24px;
-    height: 24px;
+    width: fit-content;
 }
 .tooltip__text {
     display: none;
@@ -32,6 +30,13 @@
     border: 8px solid transparent;
     border-top-color: #4263EB;
 }
+.tooltip__icon {
+    width: 24px;
+    height: 24px;
+}
 .tooltip__icon:hover ~ .tooltip__text {
     display: block;
+}
+.tooltip_margin {
+    margin: 300px auto;
 }
