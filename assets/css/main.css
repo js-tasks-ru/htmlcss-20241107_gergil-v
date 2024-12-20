@@ -22,3 +22,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.wrapper {
+    display: grid;
+    gap: 16px;
+}
