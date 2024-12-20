@@ -37,6 +37,3 @@
 .tooltip__icon:hover ~ .tooltip__text {
     display: block;
 }
-.tooltip_margin {
-    margin: 300px auto;
-}
