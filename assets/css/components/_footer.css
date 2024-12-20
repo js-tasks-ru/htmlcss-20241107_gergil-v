@@ -1,0 +1,15 @@
+.footer {
+    padding: 72px 0 136px;
+}
+.footer__inner {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer__title {
+    margin-bottom: 2rem;
+}
+.footer__text {
+    font-family: 'Inter';
+    font-weight: 400;
+}
