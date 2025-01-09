@@ -8,31 +8,41 @@
     <body>
         <div class="wrapper">
             <div class="input">
-                <div class="input__title">Label</div>
+                <label for="label" class="input__label">Label</label>
                 <div class="input__wrapper">
-                    <input type="text" placeholder="Placeholder">
+                    <input id="label" class="input__field" type="text" placeholder="Placeholder">
                     <div class="input__icon"></div>
                 </div>
             </div>
             <div class="input">
-                <div class="input__title">Focus</div>
+                <label for="focus" class="input__label">Focus</label>
                 <div class="input__wrapper">
-                    <input type="text" placeholder="Placeholder" value="Filled Input">
+                    <input id="focus" class="input__field" type="text" placeholder="Placeholder" value="Filled Input">
                     <div class="input__icon"></div>
                 </div>
             </div>
             <div class="input input_success">
-                <div class="input__title">Success</div>
+                <label for="success" class="input__label">Success</label>
                 <div class="input__wrapper">
-                    <input type="text" placeholder="Placeholder" value="Success">
-                    <div class="input__icon"></div>
+                    <input id="success" class="input__field" type="text" placeholder="Placeholder" value="Success">
+                    <svg class="input__icon input__icon_success">
+                        <use xlink:href="../../assets/images/icons.svg#success"></use>
+                    </svg>
+                    <svg class="input__icon input__icon_invalid">
+                        <use xlink:href="../../assets/images/icons.svg#error"></use>
+                    </svg>
                 </div>
             </div>
             <div class="input input_invalid">
-                <div class="input__title">Error</div>
+                <label for="error" class="input__label">Error</label>
                 <div class="input__wrapper">
-                    <input type="text" placeholder="Placeholder" value="Error">
-                    <div class="input__icon"></div>
+                    <input id="error" class="input__field" type="text" placeholder="Placeholder" value="Error">
+                    <svg class="input__icon input__icon_success">
+                        <use xlink:href="../../assets/images/icons.svg#success"></use>
+                    </svg>
+                    <svg class="input__icon input__icon_invalid">
+                        <use xlink:href="../../assets/images/icons.svg#error"></use>
+                    </svg>
                 </div>
             </div>
         </div>
