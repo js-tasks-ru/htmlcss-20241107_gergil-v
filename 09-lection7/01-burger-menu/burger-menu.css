@@ -1,7 +1,4 @@
 .burger-menu-button {
-    background: url("img/menu.svg") no-repeat;
-    width: 24px;
-    height: 24px;
     position: absolute;
     left: 16px;
 }
