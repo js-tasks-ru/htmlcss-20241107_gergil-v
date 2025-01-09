@@ -1,0 +1,7 @@
+.header {
+    padding: 24px 0;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
