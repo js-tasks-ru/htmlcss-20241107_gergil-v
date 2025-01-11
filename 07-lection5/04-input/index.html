@@ -6,6 +6,45 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-
+        <div class="wrapper">
+            <div class="input">
+                <label for="label" class="input__label">Label</label>
+                <div class="input__wrapper">
+                    <input id="label" class="input__field" type="text" placeholder="Placeholder">
+                    <div class="input__icon"></div>
+                </div>
+            </div>
+            <div class="input">
+                <label for="focus" class="input__label">Focus</label>
+                <div class="input__wrapper">
+                    <input id="focus" class="input__field" type="text" placeholder="Placeholder" value="Filled Input">
+                    <div class="input__icon"></div>
+                </div>
+            </div>
+            <div class="input input_success">
+                <label for="success" class="input__label">Success</label>
+                <div class="input__wrapper">
+                    <input id="success" class="input__field" type="text" placeholder="Placeholder" value="Success">
+                    <svg class="input__icon input__icon_success">
+                        <use xlink:href="../../assets/images/icons.svg#success"></use>
+                    </svg>
+                    <svg class="input__icon input__icon_invalid">
+                        <use xlink:href="../../assets/images/icons.svg#error"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="input input_invalid">
+                <label for="error" class="input__label">Error</label>
+                <div class="input__wrapper">
+                    <input id="error" class="input__field" type="text" placeholder="Placeholder" value="Error">
+                    <svg class="input__icon input__icon_success">
+                        <use xlink:href="../../assets/images/icons.svg#success"></use>
+                    </svg>
+                    <svg class="input__icon input__icon_invalid">
+                        <use xlink:href="../../assets/images/icons.svg#error"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
