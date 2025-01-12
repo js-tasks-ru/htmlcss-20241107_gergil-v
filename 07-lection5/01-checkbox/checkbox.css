@@ -30,8 +30,9 @@
 .checkbox__input:checked ~ .checkbox__state .checkbox__control {
     background-color: #4263EB;
     border-color: #4263EB;
+    animation: pulse 0.5s;
 }
-.checkbox__input:checked ~ .checkbox__state .checkbox__control:before {
+.checkbox__input:checked ~ .checkbox__state .checkbox__control:after {
     content: '';
     background: url("img/icon.png");
     width: 15px;
@@ -45,4 +46,12 @@
 }
 .checkbox__input:focus ~ .checkbox__state .checkbox__label {
     text-decoration: underline;
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #bdc3c7;
+    }
+    100% {
+        box-shadow: 0 0 0 1.5rem rgba(189, 195, 199, 0);
+    }
 }
