@@ -1,20 +1,5 @@
-.header__top {
-    background-color: #F9FAFC;
-    padding: 16px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.burger-menu-button {
-    background: url("img/menu.svg") no-repeat;
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    left: 16px;
-}
 .burger-menu {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -44,9 +29,7 @@
     justify-content: center;
     align-items: center;
 }
-.burger-menu__close:before {
-    content: '';
-    background: url("img/close.svg") no-repeat;
+.burger-menu__icon {
     width: 24px;
     height: 24px;
 }

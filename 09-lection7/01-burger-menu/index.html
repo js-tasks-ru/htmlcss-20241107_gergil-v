@@ -5,19 +5,33 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./burger-menu.css">
         <script defer src="./burger-menu.js"></script>
+        <style>
+            .burger-menu-button {
+                position: absolute;
+                left: 16px;
+            }
+            burger-menu-button__icon {
+                width: 24px;
+                height: 24px;
+                color: var(--grey-4);
+            }
+        </style>
     </head>
     <body>
-        <header class="header">
-            <div class="header__top">
-                <div class="burger-menu-button" id="burger-menu-open"></div>
-                <div class="header__logo"><img src="img/logo.png" alt="логотип"></div>
-            </div>
-            <div class="burger-menu" id="burger-menu">
-                <div class="burger-menu__header">
-                    <div class="burger-menu__close" id="burger-menu-close"></div>
-                    <div class="burger-menu__logo"><img src="img/logo.png" alt="логотип"></div>
+        <div class="burger-menu-button" id="burger-menu-open">
+            <svg class="burger-menu-button__icon">
+                <use xlink:href="../../assets/images/icons.svg#burger"></use>
+            </svg>
+        </div>
+        <div class="burger-menu" id="burger-menu">
+            <div class="burger-menu__header">
+                <div class="burger-menu__close" id="burger-menu-close">
+                    <svg class="burger-menu__icon">
+                        <use xlink:href="../../assets/images/icons.svg#close"></use>
+                    </svg>
                 </div>
+                <div class="burger-menu__logo"><img src="img/logo.png" alt="логотип"></div>
             </div>
-        </header>
+        </div>
     </body>
 </html>
